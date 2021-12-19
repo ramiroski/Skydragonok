@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.80.0">
+    <title>Carousel Template · Bootstrap v5.0</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+
+ 
+
+  </head>
+  <body>
+
+    SDK facebook      
+      <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v12.0" nonce="dSwPJFUI"></script>
+
+    <body style= "background-color:black">
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand logo"  href="#"><img src="imagenes/logox.png" style="height: 20%; width: 20%;"> Sky Dragon </a> 
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#Mas recorridos">Recorridos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-danger" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></svg>
+        
+        <!--<iframe style="" width="560" height="315" src="https://www.youtube.com/embed/jpLtv9I--Hc" title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+
+        <iframe class="videoContainer" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+        src="https://www.youtube.com/embed/2YYgzRkkKNU?&autoplay=1&loop=1&playlist=2YYgzRkkKNU&mute=1&controls=0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Videos con dron.</h1>
+            <p>Una perspectiva diferente.</p>
+            <!-- <p><a class="btn btn-lg btn-danger" href="#">Sign up today</a></p> -->
+          </div>
+        </div>
+      </div>
+
+        <div class="carousel-item">
+        <iframe class="videoContainer" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+        src="https://www.youtube.com/embed/VK-ny4XgXx4?playlist=VK-ny4XgXx4&autoplay=1&start=1&controls=0&mute=1&loop=1"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+          <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Videos y fotos 360</h1>
+            <p>Utiliza tu cursor para moverte dentro del video y las fotos</p>
+            <!-- <p><a class="btn btn-lg btn-success" href="#">Learn more</a></p> -->
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <iframe class="videoContainer" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+        src="https://www.youtube.com/embed/ahgoU--App88?playlist=hgoU--App88&autoplay=1&controls=0&mute=1&loop=1" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Videos promocionales.</h1>
+            <p>Ademas, edicion de video, panoramas e integracion a sitios web.</p>
+           <!--  <p><a class="btn btn-lg btn-warning" href="#">Browse gallery</a></p>-->
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+  <div class="container marketing" style= "color: white">
+  <hr class="featurette-divider">
+  <div class="row">
+  <div class="pricing-header text-center">
+  <h1 class="display-4">NUESTROS RECORRIDOS VIRTUALES</h1>
+  <p class="lead">¿Te gustaría conocer un poco de nuestra localidad via virtual?</p>
+  <p class="lead">Visita nuestro sitio y disfruta de una experiencia única virtualmente,</p>
+  <p class="lead">desde una hermosa vista aérea y los mejores recorridos explicativos para mejorar</p>
+  <p class="lead">y deleitarte en un viaje inigualable.</p>
+  <p class="lead">Nuestro sitio cuenta con un sin fin de lugares para conocer</p>
+  <p class="lead">desde una parque, tiendas, restaurantes y estadios.</p>
+  <p class="lead">¿qué esperas para conocernos? te aseguramos que no te arrepentirás.</p>
+
+
+  <iframe class="responsive-iframe" src="https://skydragon.online/tours/macroplaza/"  name="iframe_window" width="700" height="600" scrolling="no" marginheight="0" marginwidth="0" 
+  frameborder="0" style="float:left; margin-left:0px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+</div>
+</div>
+
+
+
+    <A name="Mas recorridos"><hr class="featurette-divider"></A>
+    <div class="pricing-header text-center">
+      <h1 class="display-4">Mas recorridos</h1>
+    <br>
+    <!-- Three columns of text below nuestros tours -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="img/municipio.jpg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice"
+         focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/></img>
+         <h2>Municipios</h2>
+        <p>Disfruta nuestro municipio, con una perspectiva diferente.</p>
+        <p><a class="btn btn-danger" href="https://skydragon.online/tours/plazagrande/">Ver recorrido &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="img/paquime.jpg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" 
+        focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/></img>
+        <h2>Sitios arqueologicos</h2>
+        <p>Un viaje que te llevara virtualmente a disfrutar los vestigios de nuestros ancestros.</p>
+        <p><a class="btn btn-danger" href="https://skydragon.online/tours/paquime/">Ver recorrido &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="img/logojidosha.png" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice"
+         focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/></img>
+        <h2>Agencias automotrices</h2>
+        <p>Vive la experiencia de explorar tu proximo auto de manera virtual.</p>
+        <p><a class="btn btn-danger" href="https://skydragon.online/tours/jidosha/">Ver recorrido &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+    <!-- START THE FEATURETTES -->
+    <hr class="featurette-divider">
+    <div class="row featurette">
+      <div class="col-md-4 order-md-1">
+        <h2 class="featurette-heading">Recorridos en Google Maps. <span class="text-muted"><br>Les encantara a tus clientes.</span></h2>
+        <p class="lead">Presume tus instalaciones via Google Maps, recuerda que de la vista nace el amor.</p>
+      </div>
+        <div class="col-md-8 order-md-2">
+        <iframe class="responsive-iframemap" src="https://www.google.com/maps/embed?pb=!4v1624941537140!6m8!1m7!1sCAoSLEFGMVFpcFB5ZFpKTExpejVjLXVrdHNGUHhjWUsxV09wS2d0ejZtZ3k2N1oz!2m2!1d30.39446552!2d-107.90622354!3f74.59664162375104!4f0!5f0.7820865974627469" 
+        name="iframe_window" width="500" height="500" scrolling="no" marginheight="0" marginwidth="0" frameborder="0" style="float:left; margin-left:0px" allowfullscreen="true" webkitallowfullscreen="true"
+        mozallowfullscreen="true"></iframe>
+      </div>
+    </div>
+    
+    <hr class="featurette-divider">
+    <div class="row featurette">
+      <div class="col-md-4 order-md-2">
+        <h2 class="featurette-heading">Videos. <span class="text-muted"><br>Edición de video.</span></h2>
+        <p class="lead">Tu lo imaginas, nosotros te ayudamos a hacerlo posible.</p>
+      </div>
+
+      <div class="col-md-8 order-md-1">
+        <iframe class="responsive-iframe" src="https://www.youtube.com/embed/55ph8C0FLUA?playlist=55ph8C0FLUA&autoplay=1&controls=0&mute=1&loop=1" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </div>
+    </div>
+
+   <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-4">
+        <h2 class="featurette-heading">Fotografia 360. <span class="text-muted"><br>no pierdas ningun detalle.</span></h2>
+        <p class="lead">la mejor opcion para mostrar con gran detalle tus instalaciones.</p>
+      </div>
+      <div class="col-md-8">
+        <iframe class="responsive-iframe" src="https://skydragon.online/tours/carro/"  name="iframe_window" width="700" height="600" scrolling="no" marginheight="0" marginwidth="0" 
+  frameborder="0" style="float:left; margin-left:0px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+<!--  <p>integración con facebook</p>-->
+
+ <!-- 
+    codigo para facebook
+    <iframe class="responsive-iframe" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fskydrgn360%2Fposts%2F148849260714141&width=750&show_text=true&height=605&appId" width="700" height="600" 
+style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>-->
+  
+ <!-- <div class="fb-post" data-href="https://www.facebook.com/Skydgn360/posts/129989439273544" data-width="750" data-show-text="true">
+     <blockquote cite="https://www.facebook.com/Skydgn360/posts/129989439273544" class="fb-xfbml-parse-ignore"><p>Paquimé</p>Publicado por 
+     <a href="https://www.facebook.com/Skydgn360">Skydgn Maocan</a> en&nbsp;
+     <a href="https://www.facebook.com/Skydgn360/posts/129989439273544">Martes, 6 de julio de 2021</a></blockquote>
+     </div> -->
+  <!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2020–2021 SkyDragon. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+</main>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+   
+      
+  </body>
+</html>
