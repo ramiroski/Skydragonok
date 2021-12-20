@@ -1,7 +1,7 @@
 
 # Virtual Tours "Sky Dragon
 
-Acá va un párrafo que describa lo que es el proyecto
+Proveedor de contenido VR de lugares turisticos, sin la necesidad de salir de casa.
 
 Link al Tiktok
 
@@ -11,6 +11,7 @@ Link al Tiktok
 
 #  SLA Compuesto
 
+Seria de 99.95%  pues solo ocupamos el servicio de App Service
 
 # Precio Total por mes
 
@@ -24,9 +25,14 @@ https://innovaccion-my.sharepoint.com/:b:/g/personal/inv3320_innovaccion_mx/Ecr8
 
 #  Tiempo sin disponibilidad a un año
 
+SLA para App Service
+Last updated: Dec 2021
+
+We guarantee that Apps running in a customer subscription will be available 99.95% of the time. No SLA is provided for Apps under either the Free or Shared tiers.
+
 
 #  Qué te pareció el evento
-
+Fue una experiencia enriquecedora, adquirir conocimientos nuevos  y saber que tenemos el potencial de aprender cosas nuevas cada dia.
 
 
 
