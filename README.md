@@ -11,8 +11,13 @@ Link al Tiktok
 
 #  SLA Compuesto
 
-#  TCO 3 años y Precio Total por mes
 
+# Precio Total por mes
+
+https://innovaccion-my.sharepoint.com/:x:/g/personal/inv3320_innovaccion_mx/EU56aHT4R85KpXxiOP9K8VEB716It6cwl1K8WCQwajctTw?e=NiCxqc
+
+
+#  TCO 3 años 
 https://innovaccion-my.sharepoint.com/:b:/g/personal/inv3320_innovaccion_mx/Ecr85xvJkc1GiHmvL1WqR04B_AAoOUpGYGZr7n9L3Bfe8w?e=ZQMv66
 
 
