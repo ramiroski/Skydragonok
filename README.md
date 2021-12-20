@@ -9,7 +9,7 @@ Estas instrucciones te permitirán obtener una copia del proyecto en funcionamie
 
 
 
-![texto](https://innovaccion-my.sharepoint.com/:i:/g/personal/inv3320_innovaccion_mx/EeDumuwZUWBPgWPBdb_OmYIB9IoVrrBV-Z4pYVXKVw8lFQ?e=HLGKGy.png)
+![texto](https://innovaccion-my.sharepoint.com/:i:/g/personal/inv3320_innovaccion_mx/EeDumuwZUWBPgWPBdb_OmYIB9IoVrrBV-Z4pYVXKVw8lFQ?e=CDbiHe.png)
 
 
 
