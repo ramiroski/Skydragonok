@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'viajestour'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3BD0D2EBAE944FBE84B802F5C2169A39 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BB952AEC805347AA998FDDD2C1FED137 }}
           package: .
